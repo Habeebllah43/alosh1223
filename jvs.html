@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Do anything, I'll abuse you</h1>
+    <input type="text" id="howfar" />
+    <button id="saw" onclick="transfer()">look for j</button>
+    <p id="result"></p>
+  </body>
+</html>
+<script>
+  let howfar = document.getElementById("howfar");
+  let saw = document.getElementById("saw");
+  let result = document.getElementById("result");
+
+  function transfer() {
+    let calm = howfar.value;
+    calm = calm.replace("fuck", "f**k");
+    calm = calm.replace("shit", "s**t");
+    calm = calm.replace("fuck", "f**k");
+
+    outCome.InnerText = calm;
+  }
+</script>

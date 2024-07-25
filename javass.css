@@ -1,0 +1,18 @@
+html{
+    font-family: sans-serif, 'cursive';
+}
+body{
+    width: 50%;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+
+}
+.lastResult{
+    color: white;
+    padding: 7px;
+}
+.guesses{
+    color: white;
+    padding: ;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script>
+  let david = "hello";
+  let function1 = function (number1 = 4, number2 = 5, thesymbol) {
+    if (thesymbol === "multiply") {
+      console.log(number1 + number2);
+    } else {
+      console.log(number1 / number2);
+    }
+    if (thesymbol === "divide") {
+      console.log(number1 / number2);
+    }
+    if (thesymbol === "substract") {
+      console.log(number1 - number2);
+    }
+    if (thesymbol === "add") {
+      console.log(number1 + number2);
+    }
+  };
+
+  let number1 = 67;
+  let number2 = 6;
+  function1(number1, number2, "multiply");
+  function1(2, 23, "divide");
+  function1(5, 0, "substract");
+  function1(2, 6, "add");
+</script>
